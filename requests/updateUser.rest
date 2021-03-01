@@ -1,0 +1,21 @@
+
+// Correct Request
+
+PUT http://localhost:3001/user/4
+
+{
+    "name": "Otro test",
+    "country": "Francia"
+}
+
+###
+
+// No data provided
+
+PUT http://localhost:3001/user/999
+
+###
+
+// No user id (/:id) provided
+
+PUT http://localhost:3001/user/

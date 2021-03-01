@@ -1,0 +1,12 @@
+
+// Correct request
+
+DELETE http://localhost:3001/user/1
+
+###
+
+// No user id (/:id) provided
+
+DELETE http://localhost:3001/user/aa
+
+
